@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(43, 198, 167);
+	background-size: cover;
+	background-position: center;
+	font-family: verdana;
+}
+
+.loginbox{
+	width: 420px;
+	height: 420px;
+	background: #212C54;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+h2{
+	margin: 20px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox label{
+	margin: 0;
+	padding: 20px;
+	font-weight: bold;
+} 
+
+.loginbox input{
+	width: 100%;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+.loginbox button{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 150px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20;
+	color: #FFFFFF;
+}
+.workspace{
+	background: #FFFFFF;
+	color: #000000;
+
+}
+.workspace input{
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+.workspace img{
+  margin-left: 40%;
+}
+button{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 150px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.questions {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.questions label{
+	font-weight: bold;
+	padding: 150px;
+	width: 70%;
+}
